@@ -4,8 +4,10 @@ return [
     'secret_key'    => '', // aca tiene que registrar la secret key que provee el registro de Mercado Libre.
     /**
      * Acá es donde donde va a redireccionar una vez logueado el usuario con su cuenta de mercado libre:
-     * Si es a nivel local puede poner cualquier ruta registrada en su sistema Laravel
+     * Si es a nivel local puede poner cualquier ruta registrada en su sistema Laravel, y solo soporta el puerto 4 digitos
      * Si es a nivel produccion es importante poner la ruta absoluta de donde va a redireccionar y (importantisimo!) tiene que ser HTTPS.
      */
-    'redirect'      => '/home' 
+    'redirect'      => 'http://localhost:8000/api/mercado', 
+    'region'        => 'MLA' // Pais de procedencia
+    
 ];

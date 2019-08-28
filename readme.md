@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.code-jr.com.ar/img/code.jpg"></p>
+<p align="center"><img src="http://code-jr.com.ar/img/code-jr.jpg"></p>
 
 # Integración de Mercado Libre para Laravel 5.8
 
@@ -21,3 +21,9 @@ Lo primero que hay que hacer es registrarse en Mercado Libre (si no tenes cuenta
 * Redirección: es donde va a redireccionar una vez logueado en ML.
 
 Esto lo vamos a configurar en el archivo *ml.php* ubicado en **config/ml.php**
+
+### Se hace uso de la Libreria PHP SDK
+
+Se hace uso de la libreria <a href="https://github.com/mercadolibre/php-sdk"> PHP-SDK </a> para la integración de la App con Mercado Libre (*desarrollo*).
+
+
