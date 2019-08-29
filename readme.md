@@ -27,7 +27,7 @@ Esto lo vamos a configurar en el archivo **ml.php** ubicado en **config/ml.php**
 Se hace uso de la libreria <a href="https://github.com/mercadolibre/php-sdk"> PHP-SDK </a> para la integración de la App con Mercado Libre (*aun desarrollo la la integración en su totalidad*).
 
 
-### Modo de Uso
+## Modo de Uso
 
 Una vez configurado ([Primeros Pasos](#primeros-pasos)), podemos acceder a la ruta que nos permitira saber si nuestras integración es valida o no.
 En los casos que falle nuestra configuración o la sessión haya expirado, nos informará un error.
@@ -39,3 +39,7 @@ Aun el software se encuentra en etapa de **Desarrollo**.
 ## Licencia
 
 Este Software no tiene licencia (Open Source), usar bajo su responsabilidad.
+
+## Funcionalidad
+
+Se hizo mucho incapié en que pueda se pueda implementar funcionalidades pero dentro de un marco local (haciendo pruebas locales) integrado dentro de un frameworks (en este caso Laravel).
