@@ -20,10 +20,22 @@ Lo primero que hay que hacer es registrarse en Mercado Libre (si no tenes cuenta
 * Key Secret: key provista por ML.
 * Redirección: es donde va a redireccionar una vez logueado en ML.
 
-Esto lo vamos a configurar en el archivo *ml.php* ubicado en **config/ml.php**
+Esto lo vamos a configurar en el archivo **ml.php** ubicado en **config/ml.php** []
 
 ### Se hace uso de la Libreria PHP SDK
 
-Se hace uso de la libreria <a href="https://github.com/mercadolibre/php-sdk"> PHP-SDK </a> para la integración de la App con Mercado Libre (*desarrollo*).
+Se hace uso de la libreria <a href="https://github.com/mercadolibre/php-sdk"> PHP-SDK </a> para la integración de la App con Mercado Libre (*aun desarrollo la la integración en su totalidad*).
 
 
+### Modo de Uso
+
+Una vez configurado ([Primeros Pasos](#primeros-pasos)), podemos acceder a la ruta que nos permitira saber si nuestras integración es valida o no.
+En los casos que falle nuestra configuración o la sessión haya expirado, nos informará un error.
+
+## Etapa
+
+Aun el software se encuentra en etapa de **Desarrollo**.
+
+## Licencia
+
+Este Software no tiene licencia (Open Source), usar bajo su responsabilidad.
