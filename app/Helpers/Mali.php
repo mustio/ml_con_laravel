@@ -1,7 +1,10 @@
 <?php
 namespace App\Helpers;
 
-use League\Flysystem\Config;
+/**
+ * Created by PHP SDK Mercado Libre
+ * 
+ */
 
 class Meli {
 
@@ -62,7 +65,6 @@ class Meli {
         $this->client_secret = $client_secret;
         $this->access_token = $access_token;
         $this->refresh_token = $refresh_token;
-        $a = self::$APPID;
     }
 
     /**
