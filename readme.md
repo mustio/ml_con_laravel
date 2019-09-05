@@ -31,6 +31,17 @@ Se hace uso de la libreria <a href="https://github.com/mercadolibre/php-sdk"> PH
 
 Una vez configurado ([Primeros Pasos](#primeros-pasos)), podemos acceder a la ruta que nos permitira saber si nuestras integración es valida o no.
 En los casos que falle nuestra configuración o la sessión haya expirado, nos informará un error.
+Para saber si está todo correcto (nuestra configuración) correr:
+
+```sh
+$ php artisan serve
+```
+
+Luego en la url devuelta (mas seguro http://localhost:8000), agregar el parametro **login**, quedandonos asi nuestro URL.
+
+* http://localhost:8000/login
+
+De esta manera sabremos si nuestra configuración fue correcta.
 
 ## Etapa
 
